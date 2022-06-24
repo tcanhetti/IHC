@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 .container {
     height: 100vh;
     display: flex;
@@ -63,8 +65,13 @@
     height: 1.4rem;
     margin: .2rem 0;
 }
+.container .main .input form .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.container .main .input form button {
+.container .main .input form .button button {
     margin: 1rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -74,4 +81,40 @@
     border: 1px solid var(--green);
     border-radius: .2rem;
     align-self: center;
+}
+
+.container .main .input form .button .googleButton {
+    border: none;
+    background-color: rgb(220, 78, 65);
+    font-family: 'Roboto', sans-serif;
+    width:240px;
+    height: 3rem;
+    font-size: 1rem;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.container .main .input form .button .googleButton a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .main .input form .button .googleButton .google {
+    margin: 0 .2rem;
+    padding: 0;
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.container .main .input form .button .googleButton p {
+    margin: 0 .2rem;
+    padding: 0;
 }

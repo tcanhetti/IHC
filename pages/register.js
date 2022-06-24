@@ -33,7 +33,16 @@ export default function Cadastro() {
             <input maxlength='8' name='password' type='password' required/>
             <label for='password-check'>Confirmar senha: </label>
             <input maxlength='8' name='password-check' type='password' required/>
-            <button>Registrar</button>
+            <div className={styles.button}>
+              <button>Cadastrar</button>
+              <div className={styles.googleButton}>
+                <a href='#'>
+                  <img className={styles.google} src='/google.png'/>
+                  <p>Cadastrar com o Google</p>
+                </a>
+              </div>
+            </div>
+
           </form>
         </div>
       </main>
