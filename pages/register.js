@@ -24,15 +24,15 @@ export default function Cadastro() {
       </div>
       <main className={styles.main}>
         <div className={styles.input}>
-          <form autocomplete="on">
-            <label for='nome'>Nome: </label>
-            <input maxlength='16' name='nome' type='text' autofocus required/>
-            <label for='mail'>e-mail: </label>
-            <input name='mail' type='email' required/>
-            <label for='password'>Senha: </label>
-            <input maxlength='8' name='password' type='password' required/>
-            <label for='password-check'>Confirmar senha: </label>
-            <input maxlength='8' name='password-check' type='password' required/>
+          <form>
+            <label>Nome: </label>
+            <input type='text' required/>
+            <label>e-mail: </label>
+            <input type='email' required/>
+            <label>Senha: </label>
+            <input type='password' required/>
+            <label>Confirmar senha: </label>
+            <input type='password' required/>
             <div className={styles.button}>
               <button>Cadastrar</button>
               <div className={styles.googleButton}>

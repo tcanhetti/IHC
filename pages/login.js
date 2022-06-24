@@ -25,11 +25,11 @@ export default function Login() {
       </div>
       <main className={styles.main}>
         <div className={styles.input}>
-          <form autocomplete="on">
-            <label for='mail'>e-mail: </label>
+          <form>
+            <label>e-mail: </label>
             <input name='mail' type='email' required/>
-            <label for='password'>Senha: </label>
-            <input maxlength='8' name='password' type='password' required/>
+            <label>Senha: </label>
+            <input name='password' type='password' required/>
             <div className={styles.button}>
               <button>Login</button>
               <div className={styles.googleButton}>
