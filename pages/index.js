@@ -30,7 +30,7 @@ export default function Home() {
             <a href="login">Login</a>
           </div>
           <div className={styles.homeButton}>
-            <a href="cadastro">Cadastro</a>
+            <a href="register">Cadastro</a>
           </div>
           <div id={styles.tourButton}>
             <a href="app">Usar sem cadastro</a>
