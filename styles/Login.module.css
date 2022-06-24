@@ -1,3 +1,120 @@
-.main {
-    background-color: var(--blue);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+
+    color: var(--green);
+}
+
+.container .header {
+    width: 100%;
+    max-height: 20rem;
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .header .logo .linkLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .header .logo {
+    margin: 0;
+    text-align: center;
+}
+
+.container .header .logo #logo {
+    margin: 0;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.container .main {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .main .input {
+    width: 70%;
+}
+
+.container .main .input form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.container .main .input form label {
+    align-self: center;
+}
+
+.container .main .input form input {
+    height: 1.4rem;
+    margin: .2rem 0;
+}
+.container .main .input form .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .main .input form .button button {
+    margin: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    min-width: 100px;
+    height: 2rem;
+    border: 1px solid var(--green);
+    border-radius: .2rem;
+    align-self: center;
+}
+
+.container .main .input form .button .googleButton {
+    border: none;
+    background-color: rgb(220, 78, 65);
+    font-family: 'Roboto', sans-serif;
+    width:240px;
+    height: 3rem;
+    font-size: 1rem;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.container .main .input form .button .googleButton a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .main .input form .button .googleButton .google {
+    margin: 0 .2rem;
+    padding: 0;
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.container .main .input form .button .googleButton p {
+    margin: 0 .2rem;
+    padding: 0;
 }
