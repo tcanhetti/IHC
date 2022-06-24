@@ -65,6 +65,12 @@
   background-color: var(--green);
 }
 
+.container .main .buttonContainer a:hover {
+  -webkit-box-shadow: -1px 2px 12px 1px rgba(0,0,0,0.87);
+  -moz-box-shadow: -1px 2px 12px 1px rgba(0,0,0,0.87);
+  box-shadow: -1px 2px 12px 1px rgba(0,0,0,0.87);
+}
+
 .container .main .buttonContainer #tourButton {
   display: flex;
   width: 15rem;
@@ -72,6 +78,13 @@
   color: rgb(54, 220, 164);
   border: 1px solid var(--green);
   border-radius: .2rem;
+}
+
+.container .main .buttonContainer #tourButton:hover {
+  cursor: pointer;
+  -webkit-box-shadow: -1px 2px 12px 1px rgba(0,0,0,0.87);
+  -moz-box-shadow: -1px 2px 12px 1px rgba(0,0,0,0.87);
+  box-shadow: -1px 2px 12px 1px rgba(0,0,0,0.87);
 }
 
 .container .main .buttonContainer .homeButton a,
