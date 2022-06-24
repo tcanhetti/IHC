@@ -118,3 +118,9 @@
     margin: 0 .2rem;
     padding: 0;
 }
+
+@media (min-width: 800px){
+    .container .main .input form input {
+        height: 2rem;
+    }
+}
