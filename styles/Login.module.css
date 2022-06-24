@@ -123,4 +123,7 @@
     .container .main .input form input {
         height: 2rem;
     }
+    .container .header .logo #logo {
+        width: 10rem;
+    }
 }
