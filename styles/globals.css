@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
 html,
 body {
   margin: 0;
-  height: 0;
   font-family: 'Open Sans', sans-serif;
+  background-color: var(--blue);
 
   --green: rgb(54, 220, 164);
   --blue: rgb(8, 50, 68);
@@ -12,10 +13,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }

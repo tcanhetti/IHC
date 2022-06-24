@@ -1,5 +1,6 @@
 .resultContainer {
     padding: 0;
+    padding-left: .5rem;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -15,8 +16,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-self: center;
-    margin: .5rem .5rem 1rem 0;
-    padding: 0.5rem;
+
+
+
+    margin: 1rem;
+    padding: 0.2rem;
     font-size: 1rem;
     border-radius: .2rem;
     background-color: rgb(38, 84, 105);

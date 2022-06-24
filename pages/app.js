@@ -12,8 +12,7 @@ export default function Cadastro() {
                 <title>IHC Transporte</title>
                 <link rel="icon" href="/react.ico" />
             </Head>
-            <main className={styles.main}>
-                <div className={styles.header}>
+            <header className={styles.header}>
                     <div className={styles.logo}>
                         <Link href='/'>
                             <div className={styles.linkLogo}>
@@ -31,7 +30,8 @@ export default function Cadastro() {
                             <button>Encontrar viajem</button>
                         </form>
                     </div>
-                </div>
+            </header>
+            <main className={styles.main}>
                 <div className={styles.filtro}>
                         <label>Filtrar: </label>
                         <select>

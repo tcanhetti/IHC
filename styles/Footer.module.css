@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     text-align: center;
+
+    width: 100vw;
+
+    background-color: var(--blue);
+
+    color: var(--green);
 }
 
 .footer p {

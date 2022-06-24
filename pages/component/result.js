@@ -13,10 +13,10 @@ function Result(){
                         <span>Origem: Casa</span>
                         <span>Destino: Catedral</span>
                     </div>
-                    <span>R$ 20,00</span>
+                    <span>R$ 16,00</span>
                 </div>
                 <div className={styles.appLink}>
-                    <Link href='www.uber.com'>Ir ao APP</Link>
+                    <Link href='https://www.uber.com'>Ir ao APP</Link>
                 </div>
             </div>
             <div className={styles.result}>
@@ -28,10 +28,10 @@ function Result(){
                         <span>Origem: Casa</span>
                         <span>Destino: Catedral</span>
                     </div>
-                    <span>R$ 22,00</span>
+                    <span>R$ 16,50</span>
                 </div>
                 <div className={styles.appLink}>
-                    <Link href='www.uber.com'>Ir ao APP</Link>
+                    <Link href='https://99app.com/'>Ir ao APP</Link>
                 </div>
             </div>
             <div className={styles.result}>
@@ -43,10 +43,10 @@ function Result(){
                         <span>Origem: Casa</span>
                         <span>Destino: Catedral</span>
                     </div>
-                    <span>R$ 18,00</span>
+                    <span>R$ 17,00</span>
                 </div>
                 <div className={styles.appLink}>
-                    <Link href='https://www.uber.com'>Ir ao APP</Link>
+                    <Link href='https://cabify.com/br'>Ir ao APP</Link>
                 </div>
             </div>
             <div className={styles.result}>
@@ -58,10 +58,10 @@ function Result(){
                         <span>Origem: Casa</span>
                         <span>Destino: Catedral</span>
                     </div>
-                    <span>R$ 16,00</span>
+                    <span>R$ 17,00</span>
                 </div>
                 <div className={styles.appLink}>
-                    <Link href='https://www.uber.com'>Ir ao APP</Link>
+                    <Link href='https://taximaxim.ge/pt-br/'>Ir ao APP</Link>
                 </div>
             </div>
             <div className={styles.result}>
@@ -73,10 +73,10 @@ function Result(){
                         <span>Origem: Casa</span>
                         <span>Destino: Catedral</span>
                     </div>
-                    <span>R$ 19,00</span>
+                    <span>R$ 17,20</span>
                 </div>
                 <div className={styles.appLink}>
-                    <Link href='https://www.uber.com'>Ir ao APP</Link>
+                    <Link href='https://indriver.com/pt/city/'>Ir ao APP</Link>
                 </div>
             </div>
             <div className={styles.result}>
@@ -88,10 +88,10 @@ function Result(){
                         <span>Origem: Casa</span>
                         <span>Destino: Catedral</span>
                     </div>
-                    <span>R$ 25,00</span>
+                    <span>R$ 18,00</span>
                 </div>
                 <div className={styles.appLink}>
-                    <Link href='https://www.uber.com'>Ir ao APP</Link>
+                    <Link href='https://urbanonortecidades.com.br/'>Ir ao APP</Link>
                 </div>
             </div>
         </div>
